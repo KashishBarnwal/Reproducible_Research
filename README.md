@@ -9,7 +9,7 @@ In this report, we aim to analyze the impact of different weather events on publ
 We will use the estimates of fatalities, injuries, property and crop damage to decide which types of event are most harmful to the population health and economy. From these data, we found that excessive heat and tornado are most harmful with respect to population health, while flood, drought, and hurricane/typhoon have the greatest economic consequences.
 
 ## Data Preprocessing and approch
-- The dataset(available in Dataset folder) consists of 902297x37 rows and columns.
+- The dataset(available at [this link](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) consists of 902297x37 rows and columns.
 - We trim the dataset according the question for which we need to do analysis and produce the expected outcome. This also helps us in triming the dataset to lower dimensions.
 - Question 1: What are the total number of FATALITIES and INJURY caused by severe weather ?
 - Question 2: Which weather event causes maximum ECONOMIC(Property & Crop) damage ?
